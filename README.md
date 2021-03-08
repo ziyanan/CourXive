@@ -1,6 +1,6 @@
-# SETemplate
+# CourXive
 
-A template repo for Software Engineering projects at NYU Tandon.
+A repo for Software Engineering projects at NYU Tandon.
 
 In order to build production, in the top level directory, run:
 
