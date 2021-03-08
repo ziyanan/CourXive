@@ -1,6 +1,6 @@
 # CourXive
 
-A repo for Software Engineering projects at NYU Tandon.
+This repo contains the project for Software Engineering projects at NYU Tandon.
 
 In order to build production, in the top level directory, run:
 
