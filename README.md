@@ -1,6 +1,6 @@
 # CourXive
 
-This repo contains the project for Software Engineering projects at NYU Tandon.
+Courvie is a platform that offers online learning navigation for online courses' comparisons and recommendations. We aim at helping integrating studying materials and online courses through various learning websites. No matter you are a student at school, a professional employee, or an individual learning lover, there is no need to worry about looking around for learning websites separately.
 
 In order to build production, in the top level directory, run:
 
