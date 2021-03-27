@@ -25,7 +25,7 @@ Other requirements are:
 
 ## Setup
 
-To setup the dev environment in order to make changes, run:
+To setup the dev environment and make changes, run:
 
 `make dev_env`
 
