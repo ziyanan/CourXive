@@ -13,3 +13,6 @@ prod: tests
 
 %.py: FORCE
 	nosetests tests.test_$* --nocapture
+
+dev_env: FORCE
+	pip install -r $requirements-dev.txt
