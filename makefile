@@ -1,4 +1,5 @@
 PYLINT = flake8
+REQ_DIR = .
 
 FORCE:
 
