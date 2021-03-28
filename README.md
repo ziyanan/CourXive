@@ -18,6 +18,7 @@ The user should be able to:
 8. The user can user can comment under a course and review the course
 9. The user can get course recommendations
 10. The user can view courses comparisons 
+11. The user can search correlated resources by key words
 
 The system should be able to:
 
@@ -29,6 +30,7 @@ The system should be able to:
 6. The system can make study plan for a user
 7. The system can receive comments/reviews from users for courses
 8. The system can provide comparisons between online courses 
+9. The system can provide search engine by key words
 
 Other requirements are:
 
