@@ -7,11 +7,28 @@ Courvie is a platform that offers online learning navigation for online courses'
 
 ## Requirements
 
-The system should be able to:
-
-
 The user should be able to:
 
+1. The user can create a new account
+2. The user can edit their profile, including but not limited to: their study plan, educational background, experience, and knowledge level
+3. The user can delete their profile
+4. The user can share their study progress
+5. The user can favorite a course and add a course to their wishlist
+7. The user can browse the course database
+8. The user can user can comment under a course and review the course
+9. The user can get course recommendations
+10. The user can view courses comparisons 
+
+The system should be able to:
+
+1. The system can add a new user to database
+2. The system can save an edit to a user profile
+3. The system can recommend new courses to a user based on (but not limited to) their study plan, educational background, experience, and knowledge level
+4. The system can summarize and display the course material
+5. The system's database can contain online courses information for subjects such as computer science, statistics, psychology, and arts
+6. The system can make study plan for a user
+7. The system can receive comments/reviews from users for courses
+8. The system can provide comparisons between online courses 
 
 Other requirements are:
 
