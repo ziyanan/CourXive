@@ -66,4 +66,8 @@ standard tools.
 6. Use `coverage`
 7. Use `Travis`
 
+## Testing
 
+To test, simply run: 
+
+`make tests`
