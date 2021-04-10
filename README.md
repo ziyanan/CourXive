@@ -2,12 +2,11 @@
 
 ## Description
 
-Courvie is a platform that offers online learning navigation for online courses' comparisons and recommendations. We aim at helping integrating studying materials and online courses through various learning websites. No matter you are a student at school, a professional employee, or an individual learning lover, there is no need to worry about looking around for learning websites separately.
-
+Courvie is a platform that offers *online learning navigation* for online courses' comparisons and recommendations. We aim at helping integrating studying materials and online courses through various learning websites. No matter you are a student at school, a professional employee, or an individual learning lover, there is no need to worry about looking around for learning websites separately.
 
 ## Requirements
 
-The user should be able to:
+The **user** should be able to:
 
 1. The user can create a new account
 2. The user can edit their profile, including but not limited to: their study plan, educational background, experience, and knowledge level
@@ -20,7 +19,7 @@ The user should be able to:
 10. The user can view courses comparisons 
 11. The user can search correlated resources by key words
 
-The system should be able to:
+The **system** should be able to:
 
 1. The system can add a new user to database
 2. The system can save an edit to a user profile
