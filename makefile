@@ -1,21 +1,23 @@
-PYLINT = flake8
+YAML_LINT = yamllint
+API_DIR = source
 REQ_DIR = .
 
 FORCE:
 
+prod: tests github
+
 tests: FORCE
-	$(PYLINT) *.py
-	nosetests --exe --with-coverage --verbose --cover-package=CourXive
+	cd $(API_DIR); make tests
 
-prod: tests
-	git commit -a
-	git push origin main
+test_yaml:
+	$(YAML_LINT) .travis.yml
 
-%.py: FORCE
-	nosetests tests.test_$* --nocapture
+github: FORCE
+	- git commit -a
+	git push origin master
 
 dev_env: FORCE
-	pip install -r $requirements-dev.txt
+	pip install -r $(REQ_DIR)/requirements-dev.txt
 
 # here's how to set up heroku for your repo:
 # Already done for gcallah/GameAPI!
