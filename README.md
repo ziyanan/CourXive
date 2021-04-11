@@ -8,14 +8,14 @@ Courvie is a platform that offers *online learning navigation* for online course
 
 The **user** should be able to:
 
-Accounts:
+*Accounts*:
 1. The user can sign up with email or username and a password.
 2. The user can login in to the personal account with email or username and a password.
 3. The user can login out the personal account.
 4. The user can delete the personal account.
 5. The user can edit personal profile information, including but not limited to: their study plan, educational background, experience, and knowledge level
 
-Study plan:
+*Study plan*:
 1. The user can share their study progress
 2. The user can favorite a course and add a course to their wishlist
 3. The user can add/delete grade level and interested paths on personal profile.
@@ -23,7 +23,7 @@ Study plan:
 5. The user can add/delete reminder of To Do list.
 6. The user can add/delete customized lists for storing contents.
 
-Course Database:
+*Course Database*:
 1. The user can browse the course database
 2. The user can get course recommendations
 3. The user can view courses comparisons 
@@ -32,7 +32,7 @@ Course Database:
 6. The user can filter the content by one or more tags like languages, category, providers, institutions, level, pricing, certificate.
 7. The user can explore contents by website recommendation. 
 
-User Interaction:
+*User Interaction*:
 1. The user can like/dislike the content.
 2. The user can rate the content in website.
 3. The user can view the rate/stars of the content of its original website and view others users’ rate.
