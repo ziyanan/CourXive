@@ -9,55 +9,58 @@ Courvie is a platform that offers *online learning navigation* for online course
 The **user** should be able to:
 
 *Accounts*:
-1. The user can sign up with email or username and a password.
-1. The user can login in to the personal account with email or username and a password.
-1. The user can login out the personal account.
-1. The user can delete the personal account.
-1. The user can edit personal profile information, including but not limited to: their study plan, educational background, experience, and knowledge level
+1. Sign up with email or username and password.
+1. Login to the personal account with email or username and password.
+1. Login out the personal account.
+1. Delete the personal account.
+1. Edit personal profile information, including but not limited to: their study plan, educational background, experience, and knowledge level.
 
 *Study plan*:
-1. The user can share their study progress
-1. The user can favorite a course and add a course to their wishlist
-1. The user can add grade level and interested paths on personal profile.
-1. The user can delete grade level and interested paths on personal profile.
-1. The user can add personal To Do list on personal profile.
-1. The user can delete personal To Do list on personal profile.
-1. The user can add reminder of To Do list.
-1. The user can delete reminder of To Do list.
+1. Share study progress.
+1. Favorite a course.
+2. Add a course to wishlist.
+3. Add grade level and degree paths on personal profile.
+4. Delete grade level and degree paths on personal profile.
+5. Add personal To Do list on personal profile.
+6. Delete personal To Do list on personal profile.
+7. Add reminder of To Do list.
+8. Delete reminder of To Do list.
 
 *Course Database*:
-1. The user can browse the course database
-1. The user can get course recommendations
-1. The user can view courses comparisons 
-1. The user can search the targeted contents(online learning courses) by key words.
-1. The user can explore contents by tags.
-1. The user can filter the content by one or more tags like languages, category, providers, institutions, level, pricing, certificate.
-1. The user can explore contents by website recommendation. 
+1. Browse the course database
+1. Receive course recommendations.
+1. View courses comparisons.
+1. Search for targeted contents(online learning courses) by key words.
+1. Explore courses by tags.
+1. Filter the courses by one or more tags like languages, category, providers, institutions, level, pricing, certificate.
 
 *User Interaction*:
-1. The user can like the content.
-1. The user can dislike the content.
-1. The user can rate the content in website.
-1. The user can view the rate/stars of the content of its original website and view others users’ rate.
-1. The user can choose to favorite favorite the content into.
-1. The user can choose to stop favorite the content into.
-1. The user can edit favorite list from personal profile.
-1. The user can comment the content.
-1. The user can comment on other users’ comments.
-1. The user can delete comments.
-1. The user can forward the link of the content.
+1. Like a course.
+1. Dislike a course.
+1. Rate a course in website.
+1. View the rate/stars of a course of its original website and view others users’ rate.
+1. Comment a course.
+1. Comment on other comments.
+1. Delete comments made by the same account.
+1. Share the link of the content.
 
 *The **system** should be able to*:
 
-1. The system can add a new user to database
-1. The system can save an edit to a user profile
-1. The system can recommend new courses to a user based on (but not limited to) their study plan, educational background, experience, and knowledge level
-1. The system can summarize and display the course material
-1. The system's database can contain online courses information for subjects such as computer science, statistics, psychology, and arts
-1. The system can make study plan for a user
-1. The system can receive comments/reviews from users for courses
-1. The system can provide comparisons between online courses 
-1. The system can provide search engine by key words
+1. Add a new user to database
+3. Update edit to a user profile
+4. List edit to a user profile
+5. Update users' personal To Do list.
+6. List users' personal To Do list.
+7. Update users' reminder of To Do list.
+8. List users' reminder of To Do list.
+9. Recommend new courses to a user based on (but not limited to) their study plan, educational background, experience, and knowledge level
+10. Summarize and display the course material
+11. Store online courses information for subjects - such as computer science, statistics, psychology, and arts - in course database
+12. Create study plan for a user.
+13. Collect comments/reviews from users for courses
+14. Provide comparisons between online courses 
+15. Provide search engine by key words
+
 
 *Other requirements*:
 
