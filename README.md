@@ -17,7 +17,7 @@ The **user** should be able to:
 
 *Study plan*:
 1. The user can share their study progress
-1. The user can favorite a course and add a course to their wishlist
+1. The user can favorite a course and add a course to their wishlist.
 1. The user can add grade level and interested paths on personal profile.
 1. The user can delete grade level and interested paths on personal profile.
 1. The user can add personal To Do list on personal profile.
@@ -58,6 +58,14 @@ The **system** should be able to:
 1. The system can receive comments/reviews from users for courses
 1. The system can provide comparisons between online courses 
 1. The system can provide search engine by key words
+2. The system can update users' grade level and interested paths on personal profile.
+1. The system can list users' grade level and interested paths on personal profile.
+1. The system can update users' personal To Do list on personal profile.
+1. The system can list users' personal To Do list on personal profile.
+1. The system can update useres' reminders of To Do list.
+1. The system can list useres' reminders of To Do list.
+1. The system can update users' customized lists for starred courses.
+1. The system can list users' customized lists for starred courses.
 
 Other requirements are:
 
