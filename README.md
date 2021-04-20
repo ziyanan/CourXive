@@ -18,10 +18,12 @@ The **user** should be able to:
 *Study plan*:
 1. The user can share their study progress
 1. The user can favorite a course and add a course to their wishlist
-1. The user can add/delete grade level and interested paths on personal profile.
-1. The user can add/delete personal To Do list on personal profile.
-1. The user can add/delete reminder of To Do list.
-1. The user can add/delete customized lists for storing contents.
+1. The user can add grade level and interested paths on personal profile.
+1. The user can delete grade level and interested paths on personal profile.
+1. The user can add personal To Do list on personal profile.
+1. The user can delete personal To Do list on personal profile.
+1. The user can add reminder of To Do list.
+1. The user can delete reminder of To Do list.
 
 *Course Database*:
 1. The user can browse the course database
@@ -33,10 +35,12 @@ The **user** should be able to:
 1. The user can explore contents by website recommendation. 
 
 *User Interaction*:
-1. The user can like/dislike the content.
+1. The user can like the content.
+1. The user can dislike the content.
 1. The user can rate the content in website.
 1. The user can view the rate/stars of the content of its original website and view others users’ rate.
-1. The user can choose to favorite / stop favorite the content into.
+1. The user can choose to favorite favorite the content into.
+1. The user can choose to stop favorite the content into.
 1. The user can edit favorite list from personal profile.
 1. The user can comment the content.
 1. The user can comment on other users’ comments.
