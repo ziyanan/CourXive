@@ -10,10 +10,10 @@ The **user** should be able to:
 
 *Accounts*:
 1. The user can sign up with email or username and a password.
-1. The user can login in to the personal account with email or username and a password.
-1. The user can login out the personal account.
-1. The user can delete the personal account.
-1. The user can edit personal profile information, including but not limited to: their study plan, educational background, experience, and knowledge level
+2. The user can login in to the personal account with email or username and a password.
+3. The user can login out the personal account.
+4. The user can delete the personal account.
+5. The user can edit personal profile information, including but not limited to: their study plan, educational background, experience, and knowledge level
 
 *Study plan*:
 1. The user can share their study progress
