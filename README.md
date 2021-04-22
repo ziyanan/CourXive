@@ -9,68 +9,67 @@ Courvie is a platform that offers *online learning navigation* for online course
 The **user** should be able to:
 
 *Accounts*:
-1. Sign up with email or username and password.
-1. Login to the personal account with email or username and password.
-1. Login out the personal account.
-1. Delete the personal account.
-1. Edit personal profile information, including but not limited to: their study plan, educational background, experience, and knowledge level.
+1. Sign up with their email.
+1. Login to their personal account with email/username and password.
+1. Login out.
+1. Delete their personal account.
+1. Edit their profile, including educational background, experience, and study plan.
 
 *Study plan*:
-1. Share study progress.
+1. Display and share study progress.
 1. Favorite a course.
 2. Add a course to wishlist.
-3. Add grade level and degree paths on personal profile.
-4. Delete grade level and degree paths on personal profile.
-5. Add personal To Do list on personal profile.
-6. Delete personal To Do list on personal profile.
-7. Add reminder of To Do list.
-8. Delete reminder of To Do list.
+3. Add eduaction and class standing on personal profile.
+4. Delete eduction and class standing on personal profile.
+5. Add a to-do list.
+6. Delete the to-do list.
+7. Add a reminder for the to-do list.
+8. Delete the reminder for the to-do list.
 
 *Course Database*:
 1. Browse the course database
 1. Receive course recommendations.
-1. View courses comparisons.
-1. Search for targeted contents(online learning courses) by key words.
+1. View course comparisons.
+1. Search for courses by titles or key words.
 1. Explore courses by tags.
-1. Filter the courses by one or more tags like languages, category, providers, institutions, level, pricing, certificate.
+1. Filter courses by tags, such as language, category, provider, institution, level, pricing, certificate.
 
 *User Interaction*:
 1. Like a course.
 1. Dislike a course.
-1. Rate a course in website.
-1. View the rate/stars of a course of its original website and view others users’ rate.
+1. Rate a course.
+1. View course ratings on both our website and from its original platform.
 1. Comment a course.
-1. Comment on other comments.
+1. Reply to other comments.
 1. Delete comments made by the same account.
-1. Share the link of the content.
+1. Share the link to a course.
 
 *The **system** should be able to*:
 
-1. Add a new user to database
-3. Update edit to a user profile
-4. List edit to a user profile
-5. Update users' personal To Do list.
-6. List users' personal To Do list.
-7. Update users' reminder of To Do list.
-8. List users' reminder of To Do list.
-9. Recommend new courses to a user based on (but not limited to) their study plan, educational background, experience, and knowledge level
-10. Summarize and display the course material
-11. Store online courses information for subjects - such as computer science, statistics, psychology, and arts - in course database
-12. Create study plan for a user.
-13. Collect comments/reviews from users for courses
-14. Provide comparisons between online courses 
-15. Provide search engine by key words
-
+1. Add a new user to the database.
+3. Update user profiles.
+4. List editting history of a user profile
+5. Update users' to-do list.
+6. List users' to-do list.
+7. Update users' reminders.
+8. List users' reminders.
+9. Recommend new courses to a user based on their study plan, educational background, experience, etc.
+10. Display the summary/outline of a course.
+11. Store online courses information for subjects - such as computer science, statistics, psychology, and arts - in course database.
+12. Create a study plan for a user.
+13. Collect comments/reviews from users for courses.
+14. Provide comparisons between online courses.
+15. Provide a key-word-based search engine.
 
 *Other requirements*:
 
-1. Everything under source code control
+1. Everything under source code control.
 1. Documentation integrated with code.
-1. Project build automated.
+1. Project-build automated.
 1. Automated testing in place.
 1. Automated code checking in place.
 1. Test code coverage measured.
-1. Automated deployment to production
+1. Automated deployment to production.
 
 ## Setup
 
