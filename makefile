@@ -8,7 +8,7 @@ prod: tests github
 
 tests: FORCE
 	#cd $(API_DIR); make tests
-	cd ~/CourXive/tests && echo "In /tests/" && python -m sample_test;
+	cd ./tests/ && echo "In /tests/" && python -m sample_test;
 
 #test_yaml:
 #	$(YAML_LINT) .travis.yml
