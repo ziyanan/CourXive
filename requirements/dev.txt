@@ -1,4 +1,1 @@
--r requirements/prod.txt
-flake8
-nose
-coverage
+
