@@ -43,10 +43,12 @@ The **user** should be able to:
 1. Reply to other comments.
 1. Delete comments made by the same account.
 1. Share the link to a course.
+1. Key word search for the entire database.
 
 *The **system** should be able to*:
 
 1. Add a new user to the database.
+2. Support fast searching of the course database based on key words.
 3. Update user profiles.
 4. List editting history of a user profile
 5. Update users' to-do list.
