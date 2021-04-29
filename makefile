@@ -1,5 +1,5 @@
 YAML_LINT = yamllint
-API_DIR = source
+API_DIR = CourXive
 REQ_DIR = .
 
 FORCE:
@@ -14,7 +14,7 @@ test_yaml:
 
 github: FORCE
 	- git commit -a
-	git push origin master
+	git push origin main
 
 dev_env: FORCE
 	pip install -r $(REQ_DIR)/requirements-dev.txt
