@@ -1,10 +1,9 @@
 import unittest
-from Experiment import Greeter
 
 class TestGreeting(unittest.TestCase):
     def test_default_greeting_set(self):
-        greeter = Greeter()
-        self.assertEqual(greeter.message, 'Hello world!')
+        greeting = 'Hello world!'
+        self.assertEqual(greeting, 'Hello world!')
 
 if __name__ == '__main__':
     unittest.main()
