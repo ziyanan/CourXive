@@ -9,8 +9,8 @@ prod: tests github
 tests: FORCE
 	cd $(API_DIR); make tests
 
-test_yaml:
-	$(YAML_LINT) .travis.yml
+#test_yaml:
+#	$(YAML_LINT) .travis.yml
 
 github: FORCE
 	- git commit -a
