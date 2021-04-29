@@ -1,4 +1,4 @@
--r requirements/prod.txt
+-r requirements/dev.txt
 flake8
 nose
 coverage
