@@ -35,6 +35,7 @@ The **user** should be able to:
 1. Filter courses by tags, such as language, category, provider, institution, level, pricing, certificate.
 
 *User Interaction*:
+1. Key word search for the entire database.
 1. Like a course.
 1. Dislike a course.
 1. Rate a course.
@@ -42,8 +43,7 @@ The **user** should be able to:
 1. Comment a course.
 1. Reply to other comments.
 1. Delete comments made by the same account.
-1. Share the link to a course.
-1. Key word search for the entire database.
+1. Share the link of a course.
 
 *The **system** should be able to*:
 
