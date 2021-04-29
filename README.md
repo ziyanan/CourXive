@@ -35,6 +35,7 @@ The **user** should be able to:
 1. Filter courses by tags, such as language, category, provider, institution, level, pricing, certificate.
 
 *User Interaction*:
+1. Update personal profile.
 1. Key word search for the entire database.
 1. Like a course.
 1. Dislike a course.
@@ -44,24 +45,22 @@ The **user** should be able to:
 1. Reply to other comments.
 1. Delete comments made by the same account.
 1. Share the link of a course.
+1. Update to-do list.
+1. Update reminders.
 
 *The **system** should be able to*:
 
 1. Add a new user to the database.
-2. Support fast searching of the course database based on key words.
-3. Update user profiles.
-4. List editting history of a user profile
-5. Update users' to-do list.
-6. List users' to-do list.
-7. Update users' reminders.
-8. List users' reminders.
-9. Recommend new courses to a user based on their study plan, educational background, experience, etc.
-10. Display the summary/outline of a course.
-11. Store online courses information for subjects - such as computer science, statistics, psychology, and arts - in course database.
-12. Create a study plan for a user.
-13. Collect comments/reviews from users for courses.
-14. Provide comparisons between online courses.
-15. Provide a key-word-based search engine.
+1. Support fast searching of the course database based on key words. 
+1. List editting history of a user profile.
+1. List users' to-do list.
+1. Support notifying users' reminders.
+1. Support new courses recommendation to users based on their personal profile (study plan, educational background, experience, etc.)
+1. Display the summary/outline of a course.
+1. Support storing online courses information for subjects (computer science, statistics, psychology, arts, etc) in course database.
+1. Collect comments/reviews from users for courses.
+1. Update course's score by on users's ratings.
+
 
 *Other requirements*:
 
