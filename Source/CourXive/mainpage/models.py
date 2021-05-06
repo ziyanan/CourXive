@@ -16,7 +16,7 @@ class Course(models.Model):
     """Model representing a class."""
     title = models.CharField(max_length=200)
 
-    instructer = models.ForeignKey('Instructer', on_delete=models.SET_NULL, null=True)
+    instructor = models.ForeignKey('Instructor', on_delete=models.SET_NULL, null=True)
 
     summary = models.TextField(max_length=1000, help_text='Enter a brief description of the course')
     link = models.CharField('Link', max_length=200, unique=True, help_text='Link to the online course')
@@ -33,8 +33,8 @@ class Course(models.Model):
         return reverse('course-detail', args=[str(self.id)])
 
 
-class Instructer(models.Model):
-    """Model representing an instructer."""
+class Instructor(models.Model):
+    """Model representing an instructor."""
     first_name = models.CharField(max_length=100)
     last_name = models.CharField(max_length=100)
     institute = models.CharField(max_length=100)
@@ -43,8 +43,8 @@ class Instructer(models.Model):
         ordering = ['last_name', 'first_name']
 
     def get_absolute_url(self):
-        """Returns the url to access a particular instructer instance."""
-        return reverse('instructer-detail', args=[str(self.id)])
+        """Returns the url to access a particular instructor instance."""
+        return reverse('instructor-detail', args=[str(self.id)])
 
     def __str__(self):
         """String for representing the Model object."""
