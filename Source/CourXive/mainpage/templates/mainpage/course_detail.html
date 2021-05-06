@@ -1,0 +1,11 @@
+{% extends "base_generic.html" %}
+
+{% block content %}
+  <h1>Title: {{ course.title }}</h1>
+
+  <p><strong>Instructer:</strong> <a href="">{{ course.instructer.all|join:", " }}</a></p> <!-- author detail link not yet defined -->
+  <p><strong>Summary:</strong> {{ course.summary }}</p>
+  <p><strong>Link:</strong> {{ course.link }}</p>
+  <p><strong>Subject:</strong> {{ course.subject.all|join:", " }}</p>
+  <div style="margin-left:20px;margin-top:20px">
+{% endblock %}

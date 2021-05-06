@@ -1,0 +1,19 @@
+{% extends "base_generic.html" %}
+
+{% block content %}
+  <h1>CourXive Home</h1>
+  <p>Welcome to CourXive, a website for you to find online courses!</p>
+  <h2>Dynamic content</h2>
+  <p>The website has the following record counts:</p>
+  <ul>
+    <li><strong>Courses:</strong> {{ num_courses }}</li>
+    <li><strong>Subjects:</strong> {{ num_subjects }}</li>
+    <li><strong>Instructers:</strong> {{ num_instructers }}</li>
+  </ul>
+{% endblock %}
+
+<!-- Add additional CSS in static file -->
+{% load static %}
+<link rel="stylesheet" href="{% static 'css/styles.css' %}">
+
+<li><a href="{% url 'index' %}">Home</a></li>
