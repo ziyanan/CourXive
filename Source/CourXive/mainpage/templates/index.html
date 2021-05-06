@@ -3,6 +3,11 @@
 {% block content %}
   <h1>CourXive Home</h1>
   <p>Welcome to CourXive, a website for you to find online courses!</p>
+
+  <form action="{% url 'search_results' %}" method="get">
+    <input name="q" type="text" placeholder="Search title...">
+  </form>
+  
   <h2>Dynamic content</h2>
   <p>The website has the following record counts:</p>
   <ul>

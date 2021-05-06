@@ -3,6 +3,8 @@ from django.http import HttpResponse
 from mainpage.models import Course, Instructor, Subject
 from django.views import generic
 from django.shortcuts import get_object_or_404
+from django.db.models import Q 
+
 
 def index(request):
     """View function for home page of site."""
@@ -36,3 +38,13 @@ class CourseDetailView(generic.DetailView):
     def course_detail_view(request, primary_key):
         course = get_object_or_404(Course, pk=primary_key)
         return render(request, 'mainpage/course_detail.html', context={'course': course})
+
+class SearchResultsView(generic.ListView):
+    model = Course
+    template_name = 'search_results.html'
+    def get_queryset(self): # new
+        query = self.request.GET.get('q')
+        object_list = Course.objects.filter(
+            Q(title__icontains=query)
+        )
+        return object_list
