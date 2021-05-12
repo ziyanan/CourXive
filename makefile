@@ -7,8 +7,9 @@ FORCE:
 prod: tests github
 
 tests: FORCE
-	#cd $(API_DIR); make tests
-	cd ./tests/ && echo "In /tests/" && python -m sample_test;
+	cd $(API_DIR); make tests
+	#cd ./API/tests/ && echo "In /API/tests/" && python -m test_endpoints;
+	#cd ./tests/ && echo "In /tests/" && python -m sample_test;
 
 #test_yaml:
 #	$(YAML_LINT) .travis.yml
