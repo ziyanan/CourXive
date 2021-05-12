@@ -1,5 +1,5 @@
 YAML_LINT = yamllint
-API_DIR = CourXive
+API_DIR = API
 REQ_DIR = .
 
 FORCE:
