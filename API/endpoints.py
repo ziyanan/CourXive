@@ -48,7 +48,7 @@ class Endpoints(Resource):
         return {AVAILABLE: epts}
 
 
-@api.route('/courses')
+@api.route('/courses/list')
 class Courses(Resource):
     """
     This class supports fetching a list of all courses.
@@ -60,31 +60,31 @@ class Courses(Resource):
         return {COURSES_ROUTE: 'COURSES LIST'}
 
 
-@api.route('/courses/append')
-class Courses_append(Resource):
+@api.route('/courses/search')
+class Courses_search(Resource):
     """
-    This class supports append a course to course list.
-    """
-    def get(self):
-        """
-        This method returns new course list.
-        """
-        return {COURSES_ROUTE: 'COURSE APPENDED'}
-
-
-@api.route('/courses/delete')
-class Courses_delete(Resource):
-    """
-    This class supports delete a course from course list.
+    This class supports search courses from the course list.
     """
     def get(self):
         """
-        This method returns new course list.
+        This method returns course search result.
         """
-        return {COURSES_ROUTE: 'COURSE DELETED'}
+        return {COURSES_ROUTE: 'COURSE SEARCH RESULT'}
 
 
-@api.route('/subjects')
+@api.route('/courses/review')
+class Courses_review(Resource):
+    """
+    This class supports review a course including comments or rating.
+    """
+    def get(self):
+        """
+        This method returns new review for the course.
+        """
+        return {COURSES_ROUTE: 'COURSE REVIEW'}
+
+
+@api.route('/subjects/list')
 class Subjects(Resource):
     """
     This class supports fetching a list of all subjects.
@@ -96,31 +96,19 @@ class Subjects(Resource):
         return {SUBJECTS_ROUTE: 'SUBJECTS LIST'}
 
 
-@api.route('/subjects/append')
-class Subjects_append(Resource):
+@api.route('/subjects/search')
+class Subjects_search(Resource):
     """
-    This class supports append a subject to subject list.
-    """
-    def get(self):
-        """
-        This method returns new subject list.
-        """
-        return {SUBJECTS_ROUTE: 'SUBJECT APPENDED'}
-
-
-@api.route('/subjects/delete')
-class Subjects_delete(Resource):
-    """
-    This class supports delete a subject from subject list.
+    This class supports search subjects from the subject list.
     """
     def get(self):
         """
-        This method returns new subject list.
+        This method returns subject search result.
         """
-        return {SUBJECTS_ROUTE: 'SUBJECT DELETED'}
+        return {SUBJECTS_ROUTE: 'SUBJECT SEARCH RESULT'}
 
 
-@api.route('/instructors')
+@api.route('/instructors/list')
 class Instructors(Resource):
     """
     This class supports fetching a list of all instructors.
@@ -132,25 +120,25 @@ class Instructors(Resource):
         return {INSTRUCTORS_ROUTE: 'INSTRUCTORS LIST'}
 
 
-@api.route('/instructors/append')
-class Instructors_append(Resource):
+@api.route('/instructors/search')
+class Instructors_search(Resource):
     """
-    This class supports append an instructor to instructor list.
-    """
-    def get(self):
-        """
-        This method returns new instructor list.
-        """
-        return {INSTRUCTORS_ROUTE: 'INSTRUCTOR APPENDED'}
-
-
-@api.route('/instructors/delete')
-class Instructors_delete(Resource):
-    """
-    This class supports delete an instructor from instructor list.
+    This class supports search instructors from the instructor list.
     """
     def get(self):
         """
-        This method returns new instructor list.
+        This method returns instructor search result.
         """
-        return {INSTRUCTORS_ROUTE: 'INSTRUCTOR DELETED'}
+        return {INSTRUCTORS_ROUTE: 'INSTRUCTOR SEARCH RESULT'}
+
+
+@api.route('/instructors/review')
+class Instructors_review(Resource):
+    """
+    This class supports review an instructor including comments or rating.
+    """
+    def get(self):
+        """
+        This method returns new review for the instructor.
+        """
+        return {INSTRUCTORS_ROUTE: 'INSTRUCTOR REVIEW'}
