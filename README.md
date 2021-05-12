@@ -101,3 +101,13 @@ standard tools.
 To test, simply run: 
 
 `make tests`
+
+## Run Project
+
+A step-by-step guide to run the Django Project in testing stage:
+1. Clone the repo
+2. Navigate to CourXive/Source/CourXive
+3. Run `python manage.py migrate`
+4. Then, run `python manage.py createsuperuser` to create your account as a super user
+5. Run `python manage.py makemigrations` and then `python manage.py migrate` to update your user info to the DB
+6. Finally, run `python manage.py runserver` to start the server, and you are all set
