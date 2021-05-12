@@ -8,8 +8,15 @@ prod: tests github
 
 tests: FORCE
 	cd $(API_DIR); make tests
-	#cd ./API/tests/ && echo "In /API/tests/" && python -m test_endpoints;
-	#cd ./tests/ && echo "In /tests/" && python -m sample_test;
+
+first_run: FORCE
+	cd ./Source/courxive && python manage.py migrate \
+	&& python manage.py createsuperuser \
+	&& python manage.py makemigrations \
+	&& python manage.py migrate \
+	&& python manage.py runserver
+run:
+	cd ./Source/courxive && python manage.py runserver
 
 #test_yaml:
 #	$(YAML_LINT) .travis.yml
