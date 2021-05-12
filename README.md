@@ -82,6 +82,10 @@ In order to build production, in the top level directory, run:
 
 `make prod`
 
+In order to run the Django Project in testing stage:
+1. Running the project for the first time after cloning the repo, run:  `make first_run`
+2. 1. Running the project afterward, run:  `make run`
+
 ## Design
 
 The following is a standard toolkit for this course. You *may* use other tools,
