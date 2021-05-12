@@ -72,19 +72,6 @@ The **user** should be able to:
 1. Test code coverage measured.
 1. Automated deployment to production.
 
-## Setup
-
-To setup the dev environment and make changes, run:
-
-`make dev_env`
-
-In order to build production, in the top level directory, run:
-
-`make prod`
-
-In order to run the Django Project in testing stage:
-1. Running the project for the first time after cloning the repo, run:  `make first_run`
-2. 1. Running the project afterward, run:  `make run`
 
 ## Design
 
@@ -100,11 +87,28 @@ standard tools.
 1. Use `coverage`
 1. Use `Travis`
 
+
+## Setup
+
+To setup the dev environment and make changes, run:
+
+`make dev_env`
+
+In order to build production, in the top level directory, run:
+
+`make prod`
+
+In order to run the Django Project in testing stage:
+1. Running the project for the first time after cloning the repo, run:  `make first_run`
+2. Running the project afterward, run:  `make run`
+
+
 ## Testing
 
 To test, simply run: 
 
 `make tests`
+
 
 ## Run Project
 
