@@ -2,64 +2,61 @@
 
 ## Description
 
-Courvie is a platform that offers *online learning navigation* for online courses' comparisons and recommendations. We aim at helping integrating studying materials and online courses through various learning websites. No matter you are a student at school, a professional employee, or an individual learning lover, there is no need to worry about looking around for learning websites separately.
+CourXive is a platform that offers *online learning navigation* including course comparison and recommendation. We aim at integrating online courses and study materials from various learning websites. No matter you are a student at school, a professional, or an individual learner, there is no need to look around for your best fit on different learning websites separately.
 
 ## Requirements
 
 The **user** should be able to:
 
-*Accounts*:
-1. Sign up with their email.
-1. Login to their personal account with email/username and password.
-1. Login out.
-1. Delete their personal account.
-1. Edit their profile, including educational background, experience, and study plan.
+*Account*:
+1. Sign up with email.
+1. Log in with email and password.
+1. Log out.
+1. Delete account.
+1. Edit profile, including education, class standing, experience, and study plan.
 
 *Study plan*:
 1. Display and share study progress.
 1. Favorite a course.
-2. Add a course to wishlist.
-3. Add eduaction and class standing on personal profile.
-4. Delete eduction and class standing on personal profile.
-5. Add a to-do list.
-6. Delete the to-do list.
-7. Add a reminder for the to-do list.
-8. Delete the reminder for the to-do list.
+1. Add a course to wishlist.
+1. Add a to-do list.
+1. Delete a to-do list.
+1. Add a reminder for a to-do list.
+1. Delete a reminder for a to-do list.
 
 *Course Database*:
-1. Browse the course database
+1. Browse course database
 1. Receive course recommendations.
 1. View course comparisons.
-1. Search for courses by titles or key words.
-1. Explore courses by tags.
-1. Filter courses by tags, such as language, category, provider, institution, level, pricing, certificate.
+1. Search for a course by title or key words.
+1. Filter and explore courses by tags like language, subject, provider, institution, level, pricing, certificate.
 
 *User Interaction*:
-1. Update personal profile.
-1. Key word search for the entire database.
+1. Update profile.
+1. search for a course in course database by title or key words.
 1. Like a course.
 1. Dislike a course.
 1. Rate a course.
-1. View course ratings on both our website and from its original platform.
-1. Comment a course.
-1. Reply to other comments.
-1. Delete comments made by the same account.
-1. Share the link of a course.
-1. Update to-do list.
-1. Update reminders.
+1. View course ratings from both CourXive and original provider.
+1. Comment on a course.
+1. Reply to other comments on a course.
+1. Delete comments.
+1. Share a course link.
+1. Update a to-do list.
+1. Update a reminder.
 
 *The **system** should be able to*:
 
-1. Add a new user to the database.
-1. Support fast searching of the course database based on key words. 
-1. List editting history of a user profile.
-1. List users' to-do list.
-1. Support notifying users' reminders.
-1. Support new courses recommendation to users based on their personal profile (study plan, educational background, experience, etc.)
-1. Display the summary/outline of a course.
-1. Support storing online courses information for subjects (computer science, statistics, psychology, arts, etc) in course database.
-1. Collect comments/reviews from users for courses.
-1. Update course's score by on users's ratings.
+1. Add a new user to database.
+1. Support fast searching in course database by key words. 
+1. List edit history of a user profile.
+1. List a user's to-do lists.
+1. Support notifications for reminders.
+1. Recommend new courses to users based on user profile, favorites, search history, and learning history.
+1. Display summary and outline of a course.
+1. Store online course information classified by subjects (computer science, statistics, psychology, arts, etc.) in course database.
+1. Collect comments/reviews from users on a course.
+1. Update course scores based on user ratings.
 
 
 *Other requirements*:
@@ -75,9 +72,7 @@ The **user** should be able to:
 
 ## Design
 
-The following is a standard toolkit for this course. You *may* use other tools,
-but our ability to help you master them will not be as high as with the
-standard tools.
+Below is a standard toolkit for this course.
 
 1. Use `git`
 1. Use `pydoc`
@@ -90,21 +85,21 @@ standard tools.
 
 ## Setup
 
-To setup the dev environment and make changes, run:
+To set up the development environment and make changes, run:
 
 `make dev_env`
 
-In order to build production, in the top level directory, run:
+In order to build production, in the top-level directory, run:
 
 `make prod`
 
-In order to run the Django Project in testing stage:
-1. Running the project for the first time after cloning the repo, run:  `make first_run`
-2. Running the project afterward, run:  `make run`
+In order to run the Django project in testing, run:
+1. `make first_run` if running the project for the first time.
+2. `make run` afterwards.
 
 
 ## Testing
 
-To test, simply run: 
+To run tests, simply run: 
 
 `make tests`
