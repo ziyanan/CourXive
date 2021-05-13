@@ -5,20 +5,18 @@ COVER_PKG = $(shell pwd)
 FORCE:
 
 docs:
-	pydoc3 -w endpoints
-	pydoc3 -w db
-
-# docs: $(DOCFILES)
+	pydoc -w endpoints
+	pydoc -w db
 
 %.html: %.py
-	pydoc3 -w ./$<
+	pydoc -w ./$<
 	git add $@
 
 tests: lint unit
 
 unit: FORCE
 	#nosetests --exe --verbose --with-coverage --cover-package=$(COVER_PKG)
-	python3 -m unittest tests.test_endpoints
+	python -m unittest tests.test_endpoints
 
 lint: FORCE
 	$(LINTER) *.py
