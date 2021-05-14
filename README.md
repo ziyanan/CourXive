@@ -58,6 +58,18 @@ The **user** should be able to:
 1. Collect comments/reviews from users on a course.
 1. Update course scores based on user ratings.
 
+*The **system** should be able to*:
+
+1. List all courses.
+2. Support course search.
+3. Support rate or comment a course.
+4. List all subjects.
+5. Support subject search,
+6. Allow users to submit new subject recommendations.
+7. List all instructors.
+8. Support instructor search.
+9. Support rate or comment a instructor.
+
 
 *Other requirements*:
 
