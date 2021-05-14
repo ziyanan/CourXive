@@ -58,7 +58,7 @@ The **user** should be able to:
 1. Collect comments/reviews from users on a course.
 1. Update course scores based on user ratings.
 
-*The **system** should be able to*:
+*The **API** should be able to*:
 
 1. List all courses.
 2. Support course search.
