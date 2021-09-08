@@ -2,7 +2,7 @@
 
 Fall 2021 
 
-## User Account
+### User Account
 1. User sign up 
 1. User login 
 1. User log out
