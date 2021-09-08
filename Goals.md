@@ -1,6 +1,9 @@
 # Goals  
 Goals for Fall 2021 Design Project
 
+## General
+1. Change website design
+
 ## User Account
 1. User sign up 
 2. User login 
