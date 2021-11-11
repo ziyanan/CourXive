@@ -1,70 +1,117 @@
-# Getting Started with Create React App
+# CourXive
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Description
 
-## Available Scripts
+CourXive is a platform that offers *online learning navigation* including course comparison and recommendation. We aim at integrating online courses and study materials from various learning websites. No matter you are a student at school, a professional, or an individual learner, there is no need to look around for your best fit on different learning websites separately.
 
-In the project directory, you can run:
+## Requirements
 
-### `yarn start`
+The **user** should be able to:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+*Account*:
+1. Sign up with email.
+1. Log in with email and password.
+1. Log out.
+1. Delete account.
+1. Edit profile, including education, class standing, experience, and study plan.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+*Study plan*:
+1. Display and share study progress.
+1. Favorite a course.
+1. Add a course to wishlist.
+1. Add a to-do list.
+1. Delete a to-do list.
+1. Add a reminder for a to-do list.
+1. Delete a reminder for a to-do list.
 
-### `yarn test`
+*Course Database*:
+1. Browse course database
+1. Receive course recommendations.
+1. View course comparisons.
+1. Search for a course by title or key words.
+1. Filter and explore courses by tags like language, subject, provider, institution, level, pricing, certificate.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+*User Interaction*:
+1. Update profile.
+1. search for a course in course database by title or key words.
+1. Like a course.
+1. Dislike a course.
+1. Rate a course.
+1. View course ratings from both CourXive and original provider.
+1. Comment on a course.
+1. Reply to other comments on a course.
+1. Delete comments.
+1. Share a course link.
+1. Update a to-do list.
+1. Update a reminder.
 
-### `yarn build`
+*The **system** should be able to*:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. Add a new user to database.
+1. Support fast searching in course database by key words. 
+1. List edit history of a user profile.
+1. List a user's to-do lists.
+1. Support notifications for reminders.
+1. Recommend new courses to users based on user profile, favorites, search history, and learning history.
+1. Display summary and outline of a course.
+1. Store online course information classified by subjects (computer science, statistics, psychology, arts, etc.) in course database.
+1. Collect comments/reviews from users on a course.
+1. Update course scores based on user ratings.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+*The **API** should be able to*:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. List all courses.
+2. Support course search.
+3. Support rate or comment a course.
+4. List all subjects.
+5. Support subject search,
+6. Allow users to submit new subject recommendations.
+7. List all instructors.
+8. Support instructor search.
+9. Support rate or comment a instructor.
 
-### `yarn eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+*Other requirements*:
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1. Everything under source code control.
+1. Documentation integrated with code.
+1. Project-build automated.
+1. Automated testing in place.
+1. Automated code checking in place.
+1. Test code coverage measured.
+1. Automated deployment to production.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## Design
 
-## Learn More
+Below is a standard toolkit for this course.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+1. Use `git`
+1. Use `pydoc`
+1. Use `make`
+1. Use `unittest`
+1. Use `flake8`
+1. Use `coverage`
+1. Use `Travis`
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+## Setup
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+To set up the development environment and make changes, run:
 
-### Analyzing the Bundle Size
+`make dev_env`
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+In order to build production, in the top-level directory, run:
 
-### Making a Progressive Web App
+`make prod`
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+In order to run the Django project in testing, run:
+1. `make first_run` if running the project for the first time.
+2. `make run` afterwards.
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## Testing
 
-### Deployment
+To run tests, simply run: 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+`make tests`
