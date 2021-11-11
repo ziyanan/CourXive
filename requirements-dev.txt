@@ -1,6 +1,0 @@
--r requirements/dev.txt
-flake8
-flask_restx
-nose
-coverage
-django
