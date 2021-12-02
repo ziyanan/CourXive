@@ -3,10 +3,10 @@ describe('Register api', () => {
         it('should register', () => {
             cy.request({
                 method: 'POST',
-                url: 'http://localhost:5000/api/auth/register',
+                url: 'https://courxive.herokuapp.com/api/auth/register',
                 body: {
                     name: "Angie",
-                    email: "Angie@gmail.com",
+                    email: "Angie123@gmail.com",
                     password: "123456",
                     phone: "03026255627",
                     InterestOfLearning: "web development",

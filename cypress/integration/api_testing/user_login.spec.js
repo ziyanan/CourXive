@@ -3,9 +3,9 @@ describe('Login api', () => {
         it('user should login', () => {
             cy.request({
                 method: 'POST',
-                url: 'http://localhost:5000/api/auth/login',
+                url: 'https://courxive.herokuapp.com/api/auth/login',
                 body: {
-                    email: "Angie@gmail.com",
+                    email: "Angie123@gmail.com",
                     password: "123456",
                 },
             })

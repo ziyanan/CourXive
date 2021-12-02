@@ -3,7 +3,7 @@ describe('check favourite api', () => {
         it('should return a list with all products', () => {
             cy.request({
                 method: 'POST',
-                url: 'http://localhost:5000/api/Favourite/check',
+                url: 'https://courxive.herokuapp.com/api/Favourite/check',
                 body: {
                     userId: "61a3c980092448d684c77cf6",
                     courseId: 1,

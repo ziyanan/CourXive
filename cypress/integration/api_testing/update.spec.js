@@ -3,10 +3,10 @@ describe('Update profile api', () => {
         it('should Update profile', () => {
             cy.request({
                 method: 'POST',
-                url: 'http://localhost:5000/api/profile/update',
+                url: 'https://courxive.herokuapp.com/api/profile/update',
                 body: {
-                    name: "Bakar Afzal",
-                    password: "123456hasaan",
+                    name: "Annie",
+                    password: "12345",
                     phone: "03021561276",
                     InterestOfLearning: "english",
                     userId: "61a3c980092448d684c77cf6",

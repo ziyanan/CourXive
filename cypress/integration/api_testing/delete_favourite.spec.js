@@ -4,7 +4,7 @@ describe('check favourite api', () => {
         it('should return a list with all products', () => {
             cy.request({
                 method: 'POST',
-                url: 'http://localhost:5000/api/Favourite/delete',
+                url: 'https://courxive.herokuapp.com/api/Favourite/delete',
                 body: {
                     id: "61a3c980092448d684c77cf6"
                 },
