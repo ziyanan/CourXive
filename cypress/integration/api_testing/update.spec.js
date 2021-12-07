@@ -5,11 +5,11 @@ describe('Update profile api', () => {
                 method: 'POST',
                 url: 'http://localhost:5000/api/profile/update',
                 body: {
-                    name: "Bakar Afzal",
-                    password: "123456hasaan",
+                    name: "Xinru Li",
+                    password: "123456789",
                     phone: "03021561276",
                     InterestOfLearning: "english",
-                    userId: "61a3c980092448d684c77cf6",
+                    userId: "61a93f5a46b8dca838ea9eb8",
                 },
             })
                 .should((response) => {
