@@ -16,7 +16,7 @@ const favouriteRoutes = require('./routes/api/Favourites');
 const courseRoutes = require('./routes/api/course');
 const commentRoutes = require('./routes/api/comment');
 // import userRoutes from './routes/api/users';
-
+// Testing our commit
 const app = express();
 
 // CORS Middleware

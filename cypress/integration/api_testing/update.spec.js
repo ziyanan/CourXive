@@ -5,11 +5,16 @@ describe('Update profile api', () => {
                 method: 'POST',
                 url: 'https://courxive.herokuapp.com/api/profile/update',
                 body: {
+<<<<<<< HEAD
                     name: "Annie",
                     password: "12345",
+=======
+                    name: "Xinru Li",
+                    password: "123456789",
+>>>>>>> 30d7b54f3c934adab3854b1f5423d2751873c1fa
                     phone: "03021561276",
                     InterestOfLearning: "english",
-                    userId: "61a3c980092448d684c77cf6",
+                    userId: "61a93f5a46b8dca838ea9eb8",
                 },
             })
                 .should((response) => {
